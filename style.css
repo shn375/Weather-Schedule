@@ -1,0 +1,18 @@
+.jumbotron {
+
+    background-color: black;
+}
+
+.forcast {
+    background-color: dodgerblue;
+
+    height: 120px;
+}
+
+.weatherDetail {
+    height: 290px;
+    width: 800px;
+    outline-style: solid;
+    outline-color: lightgrey;
+}
+

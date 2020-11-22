@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+</head>
+<body>
+
+    <header class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Weather Dashboard</h1>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Search for a City</h2>
+            <div class="form-group">
+              <div class="input-group-prepend">
+                <input type="text" class="form-control">
+                <button type="submit" class="btn btn-search"><i class="fas fa-search"></i></button>  
+              </div>
+            </div>
+              <ul class="list-group">
+                  <li class="list-group-item" onclick="">Austin</li>
+                  <li class="list-group-item" onclick="">Chicago</li>
+                  <li class="list-group-item" onclick="">New York</li>
+                  <li class="list-group-item" onclick="">Orlando</li>
+                  <li class="list-group-item" onclick="">San Fransisco</li>
+                  <li class="list-group-item" onclick="">Seattle</li>
+                  <li class="list-group-item" onclick="">Denver</li>
+                  <li class="list-group-item" onclick="">Atlanta</li>
+              </ul>                
+            </div>
+            <div class="col-sm-8">
+              <div class="weatherInfo">
+                <table class="weatherDetail">
+                  <h3></h3>
+                  <tr></tr>
+                </table>
+                <br>
+                <br>
+                <div>
+                  <h4>5- Day Forcast</h4>
+                    <div class="forcast">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm">
+                              One of 5 columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                          </div>
+                        </div>
+                  </div>      
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</body>
+</html>
